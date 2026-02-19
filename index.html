@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Evolution Contabilidade</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <div class="logo">Evolution Contabilidade</div>
+  <ul>
+    <li><a href="#services">Serviços</a></li>
+    <li><a href="#about">Sobre Nós</a></li>
+    <li><a href="#contact">Contacto</a></li>
+  </ul>
+</nav>
+<section class="hero" id="home">
+  <h1>Confiança e Excelência em Contabilidade</h1>
+  <p>Oferecemos serviços completos de contabilidade, consultoria e apoio fiscal para empresas em Portugal.</p>
+  <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Contacte-nos</button>
+  <img src="images/hero.jpg" alt="Hero Image">
+</section>
+<section id="services">
+  <h2>Nossos Serviços</h2>
+  <div class="services">
+    <div class="card"><img src="images/contabilidade.jpg" alt=""><h3>Contabilidade Geral</h3></div>
+    <div class="card"><img src="images/consultoria.jpg" alt=""><h3>Consultoria para Empresas</h3></div>
+    <div class="card"><img src="images/irs.jpg" alt=""><h3>IRS</h3></div>
+    <div class="card"><img src="images/apoio_fiscal.jpg" alt=""><h3>Apoio Fiscal</h3></div>
+    <div class="card"><img src="images/abertura_empresas.jpg" alt=""><h3>Abertura de Empresas</h3></div>
+  </div>
+</section>
+<section id="about">
+  <h2>Sobre Nós</h2>
+  <div class="about">
+    <img src="images/equipe.jpg" alt="Equipe Evolution">
+    <div class="about-text">
+      <h3>Nossa Missão</h3>
+      <p>Fornecer serviços contábeis de excelência, ajudando empresas a crescer com segurança financeira.</p>
+      <h3>Valores</h3>
+      <p>Transparência, confiança e inovação.</p>
+    </div>
+  </div>
+</section>
+<section id="contact">
+  <h2>Contacto</h2>
+  <form class="contact-form">
+    <input type="text" placeholder="Nome">
+    <input type="email" placeholder="Email">
+    <input type="tel" placeholder="Telemóvel">
+    <textarea placeholder="Mensagem"></textarea>
+    <button type="button">Enviar Mensagem</button>
+  </form>
+  <iframe src="https://www.google.com/maps?q=Rua+Alameda+Cidade+de+Bona+3,+Agualva-Cacém,+Portugal&output=embed"></iframe>
+  <p>📞 +351 912 345 678 | ✉️ info@evolutioncontabilidade.pt | 📍 Rua Alameda Cidade de Bona 3, Agualva-Cacém, Portugal</p>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
